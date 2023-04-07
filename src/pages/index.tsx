@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="">
-      <nav className='flex my-2 text-white'>
+      <nav className='flex py-2 text-white pageContainer'>
         <div>LOGO</div>
           <div className='flex mx-auto gap-4'>
             <div>Projects</div>
@@ -16,22 +16,22 @@ export default function Home() {
           </div>
 
       </nav>
-      <section>
+      <section className='pageContainer'>
         <div className="relative">
-          <h1 className='font-display uppercase text-[19.3vw] overflow-hidden leading-none text-mute-yellow block h-full'>Stefano</h1>
-          <h1 className='font-display text-[18vw] uppercase overflow-hidden leading-none text-mute-yellow block mt-[-4%]'>Hepburn</h1>
+          <h1 className='font-display uppercase text-[18.88vw] overflow-hidden leading-none text-mute-yellow block h-full'>Stefano</h1>
+          <h1 className='font-display text-[17.54vw] uppercase overflow-hidden leading-none text-mute-yellow block mt-[-4%]'>Hepburn</h1>
         </div>
       </section>
       <section className='relative overflow-hidden bg-dark-burgandy pt-2 pb-4 w-[100vw]'>
-        <div className='flex'>
-          <h2 className='flex list-none text-mute-yellow font-bold text-[2.5vw] whitespace-nowrap animate-marquee'>
+        <div className='flex animate-marquee animationPaused'>
+          <h2 className='flex list-none text-mute-yellow font-bold text-[2.5vw] whitespace-nowrap '>
               <li className='mx-[3vw]'>Developer</li>
               <li className='mx-[3vw]'>Product Designer</li>
               <li className='mx-[3vw]'>Photographer</li>
               <li className='mx-[3vw]'>Husband</li>
               <li className='mx-[3vw]'>Entrepreneur</li>
           </h2>
-          <h2 className='flex list-none text-mute-yellow font-bold text-[2.5vw] whitespace-nowrap  animate-marquee'>
+          <h2 className='flex list-none text-mute-yellow font-bold text-[2.5vw] whitespace-nowrap '>
               <li className='mx-[3vw]'>Developer</li>
               <li className='mx-[3vw]'>Product Designer</li>
               <li className='mx-[3vw]'>Photographer</li>

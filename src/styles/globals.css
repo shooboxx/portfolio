@@ -10,8 +10,17 @@
 
 body {
   background-color: #6A2838;
+  width: 100vw;
 }
 
 h2 {
   font-size: 2.5rem;
+}
+.pageContainer {
+  width: 97vw;
+  margin: 0 auto;
+}
+
+.animationPaused:hover {
+  animation-play-state: paused;
 }
