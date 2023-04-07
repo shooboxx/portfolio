@@ -1,12 +1,7 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   return (
     <main className="">
-      <nav className='flex my-2'>
+      <nav className='flex my-2 text-white'>
         <div>LOGO</div>
           <div className='flex mx-auto gap-4'>
             <div>Projects</div>
@@ -27,8 +22,24 @@ export default function Home() {
           <h1 className='font-display text-[18vw] uppercase overflow-hidden leading-none text-mute-yellow block mt-[-4%]'>Hepburn</h1>
         </div>
       </section>
-      <section>
-        
+      <section className='relative overflow-hidden bg-dark-burgandy pt-2 pb-4 w-[100vw]'>
+        <div className='flex'>
+          <h2 className='flex list-none text-mute-yellow font-bold text-[2.5vw] whitespace-nowrap animate-marquee'>
+              <li className='mx-[3vw]'>Developer</li>
+              <li className='mx-[3vw]'>Product Designer</li>
+              <li className='mx-[3vw]'>Photographer</li>
+              <li className='mx-[3vw]'>Husband</li>
+              <li className='mx-[3vw]'>Entrepreneur</li>
+          </h2>
+          <h2 className='flex list-none text-mute-yellow font-bold text-[2.5vw] whitespace-nowrap  animate-marquee'>
+              <li className='mx-[3vw]'>Developer</li>
+              <li className='mx-[3vw]'>Product Designer</li>
+              <li className='mx-[3vw]'>Photographer</li>
+              <li className='mx-[3vw]'>Husband</li>
+              <li className='mx-[3vw]'>Entrepreneur</li>
+            </h2>
+        </div>
+
       </section>
     </main>
   )
