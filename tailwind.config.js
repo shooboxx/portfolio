@@ -6,11 +6,16 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+      'display': ['Glodok'],
+    },
+
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'mute-yellow': '#F1EBB8',
+        'ruby-red': '#FF0000',
+        'burgandy': '#6A2838',
+        'dark-burgandy': '#4E0909'
       },
     },
   },
